@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test1(failed)">
+    <classes>
+      <class name="com.practice.createcustomer.CreateNewCustomer">
+        <methods>
+          <include name="logOut"/>
+          <include name="closeBrowser"/>
+          <include name="testCreateNewCustomer"/>
+          <include name="openBrowser"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- com.practice.createcustomer.CreateNewCustomer -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" verbose="0" name="Test2(failed)">
+    <classes>
+      <class name="com.practice.createproject.CreateNewProject">
+        <methods>
+          <include name="testCreateNewProject"/>
+          <include name="logOut"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- com.practice.createproject.CreateNewProject -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

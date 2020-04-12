@@ -1,0 +1,2 @@
+C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword
+0255d4279fc74905a8c76748b6c81486

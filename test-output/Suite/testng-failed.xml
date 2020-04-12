@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="com.practice.createproject.CreateNewProject">
+        <methods>
+          <include name="testCreateNewProject"/>
+          <include name="logOut"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- com.practice.createproject.CreateNewProject -->
+      <class name="com.practice.createcustomer.CreateNewCustomer">
+        <methods>
+          <include name="logOut"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- com.practice.createcustomer.CreateNewCustomer -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
